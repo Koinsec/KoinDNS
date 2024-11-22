@@ -4,18 +4,13 @@ DNS Spoof checker created by KoinSec s a lightweight CLI tool designed to detect
 # Installation
 step 1
 ```
-pip3 install termcolor
+pip3 install -r requirements.txt
 ```
 
 step 2
 
 ``` 
-chmod +x koindns.py
-```
-
-Step 3
-```
-sudo mv koindns.py /usr/local/bin/koindns
+bash install.sh
 ```
 
 # Usage
@@ -23,3 +18,5 @@ sudo mv koindns.py /usr/local/bin/koindns
 ```
 koindns -d <domain> [-t <trusted IPs>]
 ```
+
+Follow my Twitter: https://x.com/koinsec
