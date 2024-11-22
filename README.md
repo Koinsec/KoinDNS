@@ -18,7 +18,7 @@ Step 3
 sudo mv koindns.py /usr/local/bin/koindns
 ```
 
-Usage
+# Usage
 
 ```
 koindns -d <domain> [-t <trusted IPs>]
